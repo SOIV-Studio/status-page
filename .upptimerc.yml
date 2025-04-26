@@ -1,36 +1,96 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: SOIV-Studio # Your GitHub organization or username, where this repository lives
+repo: status-page # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Main Website
+    url: https://soiv-studio.xyz
+  - name: Discord Bot Dashboard
+    url: https://dashboard.soiv-studio.xyz
+  - name: Discord Bot API
+    url: ${{ secrets.BOT_STATUS_URL }}
+    method: GET  # 요청 방식
+    expectedStatusCodes:
+      - 200
+      - 201  # 정상으로 간주할 상태 코드
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.soiv-studio.xyz
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: soiv studio status page
+  introTitle: "서비스 실시간 상태"
+  introMessage: 모든 서비스의 현재 상태와 과거 장애 이력을 확인하세요
+  theme: dark # or light
   navbar:
     - title: Status
       href: /
+    - title: Issues
+      href: /history
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
+# 알림 설정
+notifications:
+  - type: discord
+    webhook: ${{ secrets.DISCORD_WEBHOOK }}
+  - type: email
+    recipients:
+      - status-page@soiv-studio.xyz
+
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+i18n:
+  languageSelector: true
+  activeLanguage: ko
+  
+  # 한국어
+  ko:
+    activeIncidents: 진행 중인 문제
+    allSystemsOperational: 모든 시스템 정상 작동 중
+    incidentReport: "문제 보고 #$NUMBER"
+    incidentTitle: "문제 세부 정보 #$NUMBER"
+    incidentDetails: 문제 세부 정보
+    incidentFixed: 해결됨
+    incidentOngoing: 진행 중
+    liveStatus: 실시간 상태
+    overallUptime: "전체 가동률: $UPTIME"
+    pastIncidents: 지난 문제들
+    pastIncidentsResolved: "$RESOLVED 해결됨, $TOTAL 총 문제"
+    responseTime: 응답 시간
+    up: 정상
+    down: 중단
+    degraded: 성능 저하
+    ms: ms
+    loading: 로딩 중
+    navHistory: 히스토리
+    navStatus: 상태
+    navGitHub: GitHub
+    footer: 이 페이지는 [Upptime](https://status.soiv-studio.xyz)으로 운영됩니다
+  
+  # 일본어
+  ja:
+    activeIncidents: 現在の障害
+    allSystemsOperational: すべてのシステムが正常に動作しています
+    incidentReport: "インシデント #$NUMBER レポート"
+    incidentTitle: "インシデント #$NUMBER 詳細"
+    incidentDetails: インシデント詳細
+    incidentFixed: 解決済み
+    incidentOngoing: 進行中
+    liveStatus: ライブステータス
+    overallUptime: "全体の稼働率: $UPTIME"
+    pastIncidents: 過去のインシデント
+    pastIncidentsResolved: "$RESOLVEDが解決、合計$TOTAL"
+    responseTime: 応答時間
+    up: 正常
+    down: 停止
+    degraded: 性能低下
+    ms: ミリ秒
+    loading: 読み込み中
+    navHistory: 履歴
+    navStatus: ステータス
+    navGitHub: GitHub
+    footer: このページは[Upptime](https://status.soiv-studio.xyz)によって運営されています
