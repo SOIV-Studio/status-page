@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 183,
-    "timeDay": 183,
-    "timeWeek": 183,
-    "timeMonth": 183,
-    "timeYear": 183,
+    "time": 176,
+    "timeDay": 176,
+    "timeWeek": 176,
+    "timeMonth": 176,
+    "timeYear": 176,
     "dailyMinutesDown": {}
   },
   {
@@ -34,5 +34,25 @@
     "timeMonth": 168,
     "timeYear": 168,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Discord Bot API",
+    "url": "https://bot-status.soiv-studio.xyz/health",
+    "icon": "https://icons.duckduckgo.com/ip3/bot-status.soiv-studio.xyz.ico",
+    "slug": "discord-bot-api",
+    "status": "down",
+    "uptime": "95.08%",
+    "uptimeDay": "95.08%",
+    "uptimeWeek": "95.08%",
+    "uptimeMonth": "95.08%",
+    "uptimeYear": "95.08%",
+    "time": 19540,
+    "timeDay": 19540,
+    "timeWeek": 19540,
+    "timeMonth": 19540,
+    "timeYear": 19540,
+    "dailyMinutesDown": {
+      "2025-04-27": 0
+    }
   }
 ]
