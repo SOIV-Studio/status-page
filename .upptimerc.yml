@@ -10,9 +10,6 @@ sites:
   - name: Discord Bot API
     url: https://bot-status.soiv-studio.xyz/health
     method: GET  # 요청 방식
-    expectedStatusCodes:
-      - 200
-      - 201  # 정상으로 간주할 상태 코드
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
