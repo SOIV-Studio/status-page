@@ -23,7 +23,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
-    name: Update Template
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,25 +31,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      
       - name: Update template
         uses: upptime/uptime-monitor@master
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-      
-      - name: Add custom styles
-        run: |
-          echo '/* 커스텀 CSS */' > assets/custom.css
-          echo 'body { font-family: "맑은 고딕", "Malgun Gothic", sans-serif; }' >> assets/custom.css
-          echo '.navbar { background-color: #1e3a8a !important; }' >> assets/custom.css
-          echo '.incident-card { border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }' >> assets/custom.css
-      
-      - name: Commit new data
-        uses: upptime/uptime-monitor@master
-        with:
-          command: "commit"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          COMMIT_MSG: "상태 페이지 템플릿 업데이트 및 커스텀 스타일 추가"
