@@ -8,7 +8,7 @@ sites:
   - name: Discord Bot Dashboard
     url: https://dashboard.soiv-studio.xyz
   - name: Discord Bot API
-    url: ${{ secrets.BOT_STATUS_URL }}
+    url: https://bot-status.soiv-studio.xyz/health
     method: GET  # 요청 방식
     expectedStatusCodes:
       - 200
