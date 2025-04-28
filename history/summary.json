@@ -11,7 +11,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 176,
-    "timeDay": 176,
+    "timeDay": 135,
     "timeWeek": 176,
     "timeMonth": 176,
     "timeYear": 176,
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 160,
-    "timeDay": 160,
-    "timeWeek": 160,
-    "timeMonth": 160,
-    "timeYear": 160,
+    "time": 158,
+    "timeDay": 127,
+    "timeWeek": 158,
+    "timeMonth": 158,
+    "timeYear": 158,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/bot-status.soiv-studio.xyz.ico",
     "slug": "discord-bot-api",
     "status": "down",
-    "uptime": "90.65%",
-    "uptimeDay": "90.65%",
-    "uptimeWeek": "90.65%",
-    "uptimeMonth": "90.65%",
-    "uptimeYear": "90.65%",
-    "time": 19540,
-    "timeDay": 19540,
-    "timeWeek": 19540,
-    "timeMonth": 19540,
-    "timeYear": 19540,
+    "uptime": "0.12%",
+    "uptimeDay": "0.12%",
+    "uptimeWeek": "0.12%",
+    "uptimeMonth": "0.12%",
+    "uptimeYear": "0.12%",
+    "time": 14691,
+    "timeDay": 14691,
+    "timeWeek": 14691,
+    "timeMonth": 14691,
+    "timeYear": 14691,
     "dailyMinutesDown": {
-      "2025-04-27": 0
+      "2025-04-28": 75,
+      "2025-04-27": 760
     }
   }
 ]
