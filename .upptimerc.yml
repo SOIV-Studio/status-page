@@ -30,7 +30,7 @@ status-website:
 # 알림 설정
 notifications:
   - type: discord
-    webhook: ${{ secrets.DISCORD_WEBHOOK }}
+    webhook: $DISCORD_WEBHOOK
   - type: email
     recipients:
       - status-page@soiv-studio.xyz
