@@ -17,9 +17,9 @@ status-website:
   cname: status.soiv-studio.xyz
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: soiv studio status page
-  introTitle: "서비스 실시간 상태"
-  introMessage: 모든 서비스의 현재 상태와 과거 장애 이력을 확인하세요
+  name: SOIV studio status page
+  introTitle: "Service status page"
+  introMessage: Check the current status and past outage history of all services
   theme: dark # or light
   navbar:
     - title: Status
@@ -41,13 +41,13 @@ notifications:
 # See https://upptime.js.org/docs/configuration
 
 i18n:
-  languageSelector: true
-  languageSelectorLabel: "Languages"
-  activeLanguage: ko
-  languages:
-    ko: 한국어
-    ja: 日本語
-    en: English
+  # languageSelector: true
+  # languageSelectorLabel: "Languages"
+  activeLanguage: en
+  # languages:
+    # ko: 한국어
+    # ja: 日本語
+    # en: English
   
   # 한국어
   ko:
