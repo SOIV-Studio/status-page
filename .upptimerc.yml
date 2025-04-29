@@ -24,15 +24,13 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: Issue
-      href: /incidents
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
 # 알림 설정
 notifications:
   - type: discord
-    webhook: $DISCORD_WEBHOOK
+    webhook: $NOTIFICATION_DISCORD_WEBHOOK_URL
   - type: email
     recipients:
       - status-page@soiv-studio.xyz
