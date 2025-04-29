@@ -27,14 +27,6 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# 알림 설정
-notifications:
-  - type: discord
-    webhook: $NOTIFICATION_DISCORD_WEBHOOK_URL
-  - type: email
-    recipients:
-      - status-page@soiv-studio.xyz
-
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 
