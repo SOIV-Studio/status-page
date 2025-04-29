@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 183,
-    "timeDay": 183,
-    "timeWeek": 183,
-    "timeMonth": 183,
-    "timeYear": 183,
+    "time": 178,
+    "timeDay": 199,
+    "timeWeek": 178,
+    "timeMonth": 178,
+    "timeYear": 178,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,33 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 168,
-    "timeDay": 168,
-    "timeWeek": 168,
-    "timeMonth": 168,
-    "timeYear": 168,
+    "time": 158,
+    "timeDay": 154,
+    "timeWeek": 158,
+    "timeMonth": 158,
+    "timeYear": 158,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Discord Bot API",
+    "url": "https://bot-status.soiv-studio.xyz/health",
+    "icon": "https://icons.duckduckgo.com/ip3/bot-status.soiv-studio.xyz.ico",
+    "slug": "discord-bot-api",
+    "status": "down",
+    "uptime": "0.04%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.04%",
+    "uptimeMonth": "0.04%",
+    "uptimeYear": "0.04%",
+    "time": 15681,
+    "timeDay": 19640,
+    "timeWeek": 15681,
+    "timeMonth": 15681,
+    "timeYear": 15681,
+    "dailyMinutesDown": {
+      "2025-04-29": 73,
+      "2025-04-28": 1440,
+      "2025-04-27": 760
+    }
   }
 ]
