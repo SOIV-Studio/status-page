@@ -24,6 +24,8 @@ status-website:
   navbar:
     - title: Status
       href: /
+    - title: Issue
+      href: /incidents
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
@@ -40,7 +42,12 @@ notifications:
 
 i18n:
   languageSelector: true
+  languageSelectorLabel: "Languages"
   activeLanguage: ko
+  languages:
+    ko: 한국어
+    ja: 日本語
+    en: English
   
   # 한국어
   ko:
