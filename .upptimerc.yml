@@ -8,7 +8,7 @@ sites:
   - name: Discord Bot Dashboard
     url: https://dashboard.soiv-studio.xyz
   - name: Discord Bot API
-    url: https://hyolss-lite.railway.internal/health
+    url: https://bot-status.soiv-studio.xyz/health
     method: GET  # 요청 방식
 
 status-website:
