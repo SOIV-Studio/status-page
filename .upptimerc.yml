@@ -45,7 +45,7 @@ status-website:
   cname: status.soiv-studio.xyz
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: SOIV studio status page
+  name: SOIV Studio status page
   introTitle: "Service status page"
   introMessage: Check the current status and past outage history of all services
   theme: ocean # dark or light
@@ -59,60 +59,3 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-
-i18n:
-  # languageSelector: true
-  # languageSelectorLabel: "Languages"
-  activeLanguage: en
-  # languages:
-    # ko: 한국어
-    # ja: 日本語
-    # en: English
-  
-  # 한국어
-  ko:
-    activeIncidents: 진행 중인 문제
-    allSystemsOperational: 모든 시스템 정상 작동 중
-    incidentReport: "문제 보고 #$NUMBER"
-    incidentTitle: "문제 세부 정보 #$NUMBER"
-    incidentDetails: 문제 세부 정보
-    incidentFixed: 해결됨
-    incidentOngoing: 진행 중
-    liveStatus: 실시간 상태
-    overallUptime: "전체 가동률: $UPTIME"
-    pastIncidents: 지난 문제들
-    pastIncidentsResolved: "$RESOLVED 해결됨, $TOTAL 총 문제"
-    responseTime: 응답 시간
-    up: 정상
-    down: 중단
-    degraded: 성능 저하
-    ms: ms
-    loading: 로딩 중
-    navHistory: 히스토리
-    navStatus: 상태
-    navGitHub: GitHub
-    footer: 이 페이지는 [Upptime](https://status.soiv-studio.xyz)으로 운영됩니다
-  
-  # 일본어
-  ja:
-    activeIncidents: 現在の障害
-    allSystemsOperational: すべてのシステムが正常に動作しています
-    incidentReport: "インシデント #$NUMBER レポート"
-    incidentTitle: "インシデント #$NUMBER 詳細"
-    incidentDetails: インシデント詳細
-    incidentFixed: 解決済み
-    incidentOngoing: 進行中
-    liveStatus: ライブステータス
-    overallUptime: "全体の稼働率: $UPTIME"
-    pastIncidents: 過去のインシデント
-    pastIncidentsResolved: "$RESOLVEDが解決、合計$TOTAL"
-    responseTime: 応答時間
-    up: 正常
-    down: 停止
-    degraded: 性能低下
-    ms: ミリ秒
-    loading: 読み込み中
-    navHistory: 履歴
-    navStatus: ステータス
-    navGitHub: GitHub
-    footer: このページは[Upptime](https://status.soiv-studio.xyz)によって運営されています
