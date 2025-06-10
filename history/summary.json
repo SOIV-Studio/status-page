@@ -58,19 +58,19 @@
     "url": "https://bot-api.soiv-studio.xyz/health",
     "icon": "https://icons.duckduckgo.com/ip3/bot-api.soiv-studio.xyz.ico",
     "slug": "backend-api-health-check",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 276,
-    "timeDay": 447,
-    "timeWeek": 345,
-    "timeMonth": 276,
-    "timeYear": 276,
+    "status": "up",
+    "uptime": "99.91%",
+    "uptimeDay": "98.55%",
+    "uptimeWeek": "99.79%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 370,
+    "timeDay": 1294,
+    "timeWeek": 569,
+    "timeMonth": 370,
+    "timeYear": 370,
     "dailyMinutesDown": {
-      "2025-06-10": 1
+      "2025-06-10": 21
     }
   },
   {
