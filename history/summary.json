@@ -40,9 +40,9 @@
     "url": "https://bot-status.soiv-studio.xyz/health",
     "icon": "https://icons.duckduckgo.com/ip3/bot-status.soiv-studio.xyz.ico",
     "slug": "discord-bot",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 355,
     "timeMonth": 355,
     "timeYear": 355,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-10": 0
+    }
   },
   {
     "name": "🔧 Backend API - Health Check",
