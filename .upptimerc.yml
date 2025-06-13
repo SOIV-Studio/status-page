@@ -48,7 +48,6 @@ status-website:
   name: SOIV Studio status page
   introTitle: "Service status page"
   introMessage: Check the current status and past outage history of all services
-  theme: ocean # dark or light
   navbar:
     - title: Home
       href: /
@@ -56,6 +55,25 @@ status-website:
       href: https://github.com/$OWNER/$REPO
     - title: Dashboard
       href: https://dashboard.soiv-studio.xyz
+
+  # 커스텀 CSS 적용
+  theme: custom
+  customCSS: assets/custom.css
+  
+  # 파비콘
+  faviconSvg: https://example.com/favicon.svg
+  favicon: https://example.com/favicon.ico
+  
+  # 메타 정보
+  metaTags:
+    - name: "description"
+      content: "실시간 서비스 상태 모니터링 페이지"
+    - name: "author"
+      content: "SOIV Studio"
+    - property: "og:title"
+      content: "서비스 상태 페이지"
+    - property: "og:description"
+      content: "모든 서비스의 실시간 상태를 확인하세요"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
