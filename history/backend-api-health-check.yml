@@ -1,7 +1,7 @@
 url: https://bot-api.soiv-studio.xyz/health
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-08-19T03:04:21.555Z
+status: up
+code: 200
+responseTime: 27112
+lastUpdated: 2025-08-19T03:48:19.473Z
 startTime: 2025-05-24T17:09:48.192Z
 generator: Upptime <https://github.com/upptime/upptime>
