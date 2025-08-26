@@ -1,7 +1,7 @@
 url: https://bot-api.soiv-studio.xyz/api/auth-status
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-08-26T07:28:56.772Z
+status: up
+code: 200
+responseTime: 178
+lastUpdated: 2025-08-26T07:55:58.287Z
 startTime: 2025-05-24T17:09:48.957Z
 generator: Upptime <https://github.com/upptime/upptime>
