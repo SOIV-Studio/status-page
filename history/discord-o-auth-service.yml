@@ -1,7 +1,7 @@
 url: https://bot-api.soiv-studio.xyz/auth/discord
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-09-04T06:58:58.481Z
+status: up
+code: 200
+responseTime: 382
+lastUpdated: 2025-09-04T07:17:49.791Z
 startTime: 2025-05-24T17:09:51.590Z
 generator: Upptime <https://github.com/upptime/upptime>
